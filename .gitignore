@@ -1,0 +1,21 @@
+# Exclude all audio recordings
+*.wav
+
+# Exclude macOS system files
+.DS_Store
+
+# Exclude RStudio temporary files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Exclude Older R objects (not needed for reproducibility)
+older_r_objects/
+
+# Large fitted model objects (retain locally)
+output/final/fit_agreement.rds
+output/final/accuracy_prior_robustness_03.rds
+output/final/accuracy_prior_robustness_10.rds
+output/final/fit_accuracy_full.rds
+output/final/fit_accuracy_null.rds
